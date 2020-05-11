@@ -35,6 +35,7 @@ function submit() {
     httpReq.send(JSON.stringify(obj));
 }
 function getData() {
+	//location.reload();
     var httpReq;
     if(window.XMLHttpRequest) {
         httpReq = new XMLHttpRequest();
@@ -55,7 +56,9 @@ function getData() {
 }
 
 function tablecreate(response){
+	debugger;
 	var table = document.createElement('table');
+	
 	table.setAttribute("border", "1");
     var tbody = document.createElement('tbody');
     var thead = document.createElement('thead');
@@ -174,7 +177,6 @@ function tablecreate(response){
     
     table.appendChild(thead);
     table.appendChild(tbody);
-
     var body = document.getElementsByTagName('body')[0];
     body.appendChild(table)
 	

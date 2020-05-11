@@ -157,18 +157,17 @@ body {
 	margin:30px;
 	
 	}
-	.form-load-button:hover,.form-remove-button:hover,.form-submit-button:hover {
+	.form-load-button:hover,.form-remove-button:hover,.form-submit-button:hover{
 	background: #0066A2;
 	color: white;
 	border-style: outset;
 	border-color: #0066A2;
-	height: 33px;
-	font: bold 15px arial, sans-serif;
+	/* height: 33px; */
+	/* font: bold 15px arial, sans-serif; */
 	text-shadow:none;
-	margin:30px;
-	color: #ff00ff;
-	
 	}
+	
+  
 			
 			
 			
