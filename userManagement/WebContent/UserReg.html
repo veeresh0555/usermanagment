@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Registration</title>
+<link href="css/user.css" style="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+<script type="text/javascript" src="js/userscript.js" ></script>
+</head>
+<body>
+<div class="header">
+<nav class="nav">
+<a href="Home.html" >Home</a>
+<a href="#">About</a>
+<a href="UserReg.html" class="active">User Registration</a>
+<a href="#">Contact Us</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+</div>
+<div class="content" style="margin:73px 0px 0px 0px;">
+<h2>User Registration</h2>
+			<table>
+			<tr>
+			<td>User Name: </td>
+			<td><input type="text" name="name" id="name" required="required" placeholder="Enter Name"/></td>
+			</tr>
+			<tr>
+			<td>Sap Id: </td>
+			<td><input type="number" name="sapId" id="sapId" required="required" placeholder="Enter SapId"/></td>
+			</tr>
+			<tr>
+			<td>Mobile Number: </td>
+			<td><input type="number" name="mobile" id="mobile" required="required" placeholder="Enter Mobile No."/></td>
+			</tr>
+			<tr>
+			<td>Email Id: </td>
+			<td>
+			 <input type="email" name="email"  id="email" placeholder="Enter Email Id" pattern="[a-z0-9._%+-]+@hcl.com" required />
+			</td>
+			</tr>
+			<tr>
+			<td>gender: </td>
+			<td><input type="text" name="gender" id="gender" required="required" placeholder="Enter Gender"/></td>
+			</tr>
+			<tr>
+			<td><button onclick="submit(event)" class="form-submit-button">Submit</button> </td>
+			<td><button onclick="getData()" class="form-load-button" >Load Data</button> </td>
+			<td><button onclick="update(event)" class="form-remove-button" >Update</button></td>
+			</tr>
+			</table>
+   			
+            
+            
+            
+            
+            
+
+</div>
+
+
+
+<footer class="footer">
+<div class="container">Copyright &copy; 2020</div>   
+</footer>
+
+
+</body>
+</html>

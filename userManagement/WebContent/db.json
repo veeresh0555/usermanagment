@@ -1,0 +1,12 @@
+{
+  "user": [
+    {
+      "name": "veeru",
+      "sapId": "1234",
+      "mobile": "9876541232",
+      "email": "abc@example.com",
+      "gender": "male",
+      "id": 1
+    }
+  ]
+}
